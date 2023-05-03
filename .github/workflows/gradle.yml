@@ -32,5 +32,5 @@ jobs:
        - name: Docker Build and run
          run: |
             docker build -t vijay2729/gradleproject .
-            docker images -a
-            docker push vijay2729/gradleproject:latest
+            docker images -a 
+            docker push vijay2729/gradleproject
